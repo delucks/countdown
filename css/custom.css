@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+  font-size: 1.2em;
+  font-family: 'PT Sans', sans-serif;
+  overflow: hidden;
+}
+
+b {
+  font-size: 1.5em;
+}
+
+div#main {
+  position: relative;
+  width: 70%;
+  text-align: center;
+  margin-top: 10%;
+  border-width: 8px 8px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: lavender;
+  background-color: rgba(0,0,0,0.7);
+  margin: 5% 15%;
+  color: lavender;
+}
+
+h1 {
+  font-size: 5em;
+  display: block;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Minutes until I can see you!</title>
+    <meta name="author" content="delucks">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="time.js"></script>
+    <script>
+      var type = "minutes";
+      setInterval(refreshTime, 1000, type);
+    </script>
+    <style>
+    body {
+      background: url('../images/gog.jpg') no-repeat center center;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="column" id="main">
+      <p>
+        <h1 id="amount"></h1><b id="type"></b> until we can see each other!
+      </p>
+    </div>
+  </body>
+</html>
